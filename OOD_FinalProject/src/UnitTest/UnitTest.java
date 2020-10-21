@@ -128,7 +128,6 @@ public class UnitTest {
         
         System.setIn(sysInBackup);
 	}
-	
 	@Test
 	public void getCheckTest() throws IOException {
 		InputStream sysInBackup = System.in; // backup System.in to restore it later
